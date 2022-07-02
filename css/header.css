@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin: auto;
+}
+
+.header {
+    background-color: #000000d6;
+}
+
+.header .main-log {
+    font-size: 20px;
+    /* display: flex; */
+    padding: 10px 0px;
+}
+
+.header .logo-image {
+    width: 85px;
+}
+
+.header .heading-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header .buttons {
+    background-color: #292929d6;
+    border: 1px solid #292929d6;
+    border-radius: 5px;
+    color: #bdbdbd;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.header .buttons:hover {
+    background-color: #ffffff;
+    color: #292929d6;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.header .about {
+    width: 100px;
+}
+
+.header .about-btn {
+    padding: 10px 15px;
+}
+
+.header .services {
+    width: 100px;
+}
+
+.header .services-btn {
+    padding: 10px 15px;
+}
+
+.header .ventures {
+    width: 100px;
+}
+
+.header .ventures-btn {
+    padding: 10px 15px;
+}
+
+.header .news {
+    width: 100px;
+}
+
+.header .news-btn {
+    padding: 10px 15px;
+}
+
+.header .investor-portal {
+    width: 150px !important;
+}
+
+.header .investor-btn {
+    padding: 10px 13px;
+}
+
+.header .contact-us {
+    width: 120px;
+}
+
+.header .contact-btn {
+    padding: 10px 13px;
+}
