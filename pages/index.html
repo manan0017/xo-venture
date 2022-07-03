@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -97,15 +99,38 @@
         </section>
         <section class="forth-section">
             <div class="brands-section">
-                <div class="owl-carousel owl-theme owl-loaded">
-                    <div class="owl-stage-outer">
-                        <div class="owl-stage">
-                            <div class="owl-item">...</div>
-                            <div class="owl-item">...</div>
-                            <div class="owl-item">...</div>
-                        </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">Hilton</div>
+                      <div class="swiper-slide">Marriott</div>
+                      <div class="swiper-slide">Hyatt</div>
+                      <div class="swiper-slide">IHG</div>
+                      <div class="swiper-slide">Choice</div>
+                      <div class="swiper-slide">Wyndham</div>
+                      <div class="swiper-slide">Sonesta</div>
+                      <div class="swiper-slide">Red Lion</div>
+                      <div class="swiper-slide">Radisson</div>
+                      <div class="swiper-slide">Starbucks</div>
+                      <div class="swiper-slide">Sheetz</div>
+                      <div class="swiper-slide">Dollar General</div>
+                      <div class="swiper-slide">Family Dollar</div>
+                      <div class="swiper-slide">Applebee's</div>
+                      <div class="swiper-slide">Valero</div>
+                      <div class="swiper-slide">Exxon Mobil</div>
+                      <div class="swiper-slide">7-Eleven</div>
+                      <div class="swiper-slide">Subway</div>
+                      <div class="swiper-slide">Dunkin Donuts</div>
+                      <div class="swiper-slide">Ben & Jerry's</div>
+                      <div class="swiper-slide">Smoothie King</div>
+                      <div class="swiper-slide">Planet Fitness</div>
+                      <div class="swiper-slide">Crunch Fitness</div>
+                      <div class="swiper-slide">Veterinary Emergency Group</div>
+                      <div class="swiper-slide">TGI Friday's</div>
+                      <div class="swiper-slide">Aspen Dental</div>
+                      <div class="swiper-slide">Davita</div>
                     </div>
-                </div>
+                    <!-- <div class="swiper-pagination"></div> -->
+                  </div>
             </div>
         </section>
         <section class="fifth-section">
@@ -119,6 +144,8 @@
             </div>
         </section>
     </div>
+
+
     <footer>
         <div class="footer">
             <div class="container">
@@ -186,9 +213,37 @@
                         </div>
                     </div>
                 </div>
+                <div class="footer-bottom">
+                    © 2022 All rights reserved.Tatvic Analytics Private Limited
+                </div>
             </div>
         </div>
     </footer>
 </body>
 
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      autoplay:true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 50,
+        },
+      },
+    });
+  </script>
 </html>

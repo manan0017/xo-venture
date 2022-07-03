@@ -8,6 +8,40 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
+
+.swiper {
+    width: "80%";
+    height: 300px;
+  }
+
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
 .container {
     width: 1200px;
     padding-left: 1.2rem;
@@ -112,6 +146,9 @@ h2{
 .second-section  .about-header{
     padding-top: 20px;
 }
+.third-section {
+    padding-bottom: 12rem;
+}
 .third-section .service-header{
     padding-top: 20px;
 }
@@ -171,7 +208,9 @@ h2{
     padding-top: 20px;
 }
 
-
+.swiper-slide {
+    border: 1px solid black;
+}
 
 .fifth-section .contact_us {
     margin-top: 12rem;
