@@ -21,7 +21,6 @@ body {
 
 .header .main-log {
     font-size: 20px;
-    /* display: flex; */
     padding: 10px 0px;
 }
 
@@ -39,6 +38,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* overflow: hidden; */
 }
 
 .header .header-text {
@@ -50,7 +50,8 @@ body {
 
 .header .buttons {
     background-color: #292929d6;
-    border: 1px solid #292929d6;
+    border: none;
+    outline: none;
     border-radius: 5px;
     color: #bdbdbd;
     font-size: 16px;
@@ -68,10 +69,44 @@ body {
 
 .header .about {
     width: 100px;
+    position: relative;
+    display: inline-block;
 }
 
 .header .about-btn {
     padding: 10px 15px;
+}
+
+.header-right:hover .about .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    list-style: none;
+}
+
+.dropdown a {
+    float: left;
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding: 12px 16px;
+    width: 100%;
+}
+
+.header ul li a:hover {
+    background-color: grey;
+}
+
+.about .dropdown {
+    display: none;
+    position: absolute;
+    min-width: 231px;
+    background-color: beige;
+    z-index: 1;
+    top: 58px;
+    left: 0;
+    border-radius: 6px;
 }
 
 .header .services {

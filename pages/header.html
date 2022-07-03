@@ -14,15 +14,28 @@
 
 <body>
     <header>
-        <div class="header">
+        <div class="header" id="header_content">
             <div class="container">
                 <div class="heading-data">
                     <div class="main-log">
                         <img class="logo-image" src="../images/logos/Logo Transparent.png" alt="main-logo-transperent">
                     </div>
                     <div class="header-right">
-                        <div class="header-text about">
-                            <button class="buttons about-btn">About</button>
+                        <div class="about-dropdown">
+                            <div class="header-text about">
+                                <button class="buttons about-btn">About</button>
+                                <div class="dropdown" id="my_dropdown">
+                                    <ul>
+                                        <li><a href="#">Vision and Core Values</a></li>
+                                        <li><a href="#">Culture, Diversity, Equity & Inclusion</a></li>
+                                        <li><a href="#">Environmental Stewardship</a></li>
+                                        <li><a href="#">Social Responsibility</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Founder's Message</a></li>
+                                        <li><a href="#">Executive Management Committee</a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                         <div class="header-text services">
                             <button class="buttons services-btn">Services</button>
@@ -47,6 +60,7 @@
             </div>
         </div>
     </header>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
