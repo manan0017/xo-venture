@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin: auto;
+}
+img {
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+h2{
+    font-size: 3rem;
+}
+
+.first-section .hero-section {
+    width: 100vw;   
+    height: 100vh;
+    position: relative;
+}
+
+.first-section .back-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.first-section .background-img {
+    height: 99%;
+    object-fit: cover;
+    width: 100%;
+}
+.first-section .mainContentContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+
+.first-section .taglineText {
+    font-size: 4.5rem;
+    line-height: 2rem;
+    text-transform:uppercase;
+    font-weight: 600;
+}
+
+.first-section .taglineBottomText {
+    font-size: 3rem;
+    font-weight: 500;
+}
+.second-section{
+    padding:  12rem 0;
+}
+.second-section .about-section {
+    padding: 20px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.second-section .about-data {
+    border: 1px solid;
+    padding: 0px 40px;
+    border-radius: 5px;
+  /* box-shadow: 20px 20px 60px rgb(0 0 0 / 7%);*/
+   box-shadow: 10px 10px #888888;
+}
+.second-section .img-section{
+    width: 45%;
+}
+.second-section .about-us-detail{
+    width: 45%;
+    position: relative;
+}
+.second-section .second-about-img{
+    width: 70vh;
+}
+.second-section .paragraph {
+    padding-bottom: 10px;
+}
+.second-section .view-more-btn {
+    position: absolute;
+    width: 144px;
+    right: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+    bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ffffff;
+}
+.second-section .view-more-btn:hover {
+    background: #000000;
+    color: #ffffff;
+}
+.second-section .right-arrow{
+    float: right;
+}
