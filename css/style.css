@@ -86,7 +86,7 @@ h2{
     position: relative;
 }
 .second-section .second-about-img{
-    width: 70vh;
+    width: 100%;
 }
 .second-section .paragraph {
     padding-bottom: 10px;
@@ -144,7 +144,7 @@ h2{
     position: relative;
 }
 .third-section .second-about-img{
-    width: 70vh;
+    width: 100%;
 }
 .third-section .paragraph {
     padding-bottom: 10px;
